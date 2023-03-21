@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+  Card view demo
+</mat-toolbar>
+<div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="16px grid" >
+    <div [fxFlex]="(100/gridColumns) + '%'" fxFlex.xs="100%" fxFlex.sm="33%"
+         infinite-scroll
+         [infiniteScrollDistance]="2"
+         [infiniteScrollThrottle]="300"
+         (scrolled)="onScroll()"
+         *ngFor="let adress of adresses">
+         <div class="card">
+           <div>
+              <p>Country: {{adress.country}}</p>
+              <p>Country code: {{adress.country_code}}</p>
+              <p>Zipcode: {{adress.zipcode}}</p>
+              <p>City: {{adress.city}}</p>
+              <p>Building number: {{adress.buildingNumber}}</p>
+              <p>Street name: {{adress.streetName}}</p>
+              <p>Street: {{adress.street}}</p>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
