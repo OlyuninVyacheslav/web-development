@@ -1,0 +1,116 @@
+.bl4ck {
+  border: 2px solid black;
+}
+
+.bg1{
+    background-image: url(imgs2/bg1.png);
+    background-repeat: no-repeat;
+    background-position: left 25%;
+}
+
+.bg2 {
+    background-image: url(imgs2/bg2.png);
+    background-repeat: no-repeat;
+    background-position: left 70%;
+}
+
+.bg2-2 {
+    background-image: url(imgs2/bg2-2.png);
+    background-repeat: no-repeat;
+    background-position: right 54%;
+}
+
+.bt1 {
+    background-color: #458FF6;
+}
+
+.bt2 {
+    border: 2px solid #458FF6;
+    color: #458FF6;
+}
+
+.bg3 {
+    background-image: url(imgs2/bg1.png);
+    background-repeat: no-repeat;
+    background-position: right 100%;
+}
+
+.bg4 {
+    background-image: url(imgs2/bg4.png);
+    background-repeat: no-repeat;
+    background-position: 105% 0%;
+}
+
+.bg5 {
+    background-image: url(imgs2/bg5.png);
+    background-repeat: no-repeat;
+    background-position: 13% 70%;
+}
+
+.bg6 {
+    background-image: url(imgs2/bg6.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.bg7
+{
+    background-image: url(imgs2/bg5.png);
+    background-repeat: no-repeat;
+    background-position: 15% 32%;
+}
+
+.bg8 {
+    background-image: url(imgs2/bg5.png);
+    background-repeat: no-repeat;
+    background-position: -2% 104%;
+}
+
+.bg9 {
+    background-image: url(imgs2/bg5.png);
+    background-repeat: no-repeat;
+    background-position: 100% 105%;
+}
+
+.gradient-blue{
+    background: linear-gradient(to top right, #5A98F2, #67C3F3);
+    padding: 10px;
+}
+
+.slider
+{
+    max-width: 94px;
+    max-height: 10px;
+}
+.arrow
+{
+    max-width: 31px;
+    max-height: 20px;
+}
+
+.blue-text
+{
+    color: #4089ED;
+}
+.loading-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* width:100%;
+    height: 100%; */
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.whitebg{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}

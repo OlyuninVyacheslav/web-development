@@ -1,0 +1,54 @@
+.container_{
+    width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.orange-text {
+   color: #FA4A0C;
+}
+
+.orangebck
+{
+    background-color: #FA4A0C;
+}
+.fw500 {
+   font-weight: 500;
+}
+
+.bck {
+    background-image: url(imgs/bck.png);
+    height: 619px;
+}
+
+.bck2 {
+    background-image: url(imgs/bck2.png);
+    height: 510px;
+}
+
+.nobck
+{
+    background: none;
+}
+
+.telephones {
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+.mt650
+{
+    margin-top: 650px;
+}
+
+.sect2 {
+    margin-bottom: -200px;
+}
+
+.sect2img {
+    margin-left: -75px;
+}
+
+.footer-logo
+{
+    margin-top:-35px;
+}
